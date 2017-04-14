@@ -75,6 +75,7 @@ public class FactionsPlugin extends JavaPlugin {
 	@Getter public EffectRestorer effectRestorer;
 	@Getter public EotwHandler eotwHandler;
 	@Getter public SotwTimer sotwTimer;
+	@Getter public Random random;
 	@Getter public EventScheduler eventScheduler;
 	@Getter public FactionManager factionManager;
 	@Getter public KeyManager keyManager;
@@ -263,7 +264,7 @@ public class FactionsPlugin extends JavaPlugin {
 		for (Map.Entry<String, Map<String, Object>> entry : map.entrySet()) {
 			PluginCommand command = getCommand(entry.getKey());
 			command.setPermission("hcf.command." + entry.getKey());
-			command.setPermissionMessage(ChatColor.RED + "You do not have permissions to execute this command.");
+			command.setPermissionMessage(ChatColor.RED + "You do not have permission to execute this command.");
 		}
 	}
 
