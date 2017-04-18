@@ -18,4 +18,5 @@ Dependencies
 
 Trove, Guava, and both Commons libraries need to be exported with the project.
 
-Be sure to keep a lookout for my new core that will wipe iHCF off of MCM.
+Tutorial on how to setup the project & compile:
+https://www.youtube.com/watch?v=zIYHvB1dcyw&feature=youtu.be
