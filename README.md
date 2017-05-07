@@ -1,4 +1,4 @@
-# WenjaFactions
+# WenjaFactions (fork of iHCF)
 
 Dependencies
 - PaperSpigot 1.7 (use one provided, put API first)
