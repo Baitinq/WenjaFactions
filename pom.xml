@@ -55,6 +55,10 @@
                 <enabled>true</enabled>
             </snapshots>
         </repository>
+        <repository>
+            <id>destroystokyo-repo</id>
+            <url>https://repo.destroystokyo.com/repository/maven-snapshots/</url>
+        </repository>
     </repositories>
 
     <dependencies>
